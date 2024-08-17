@@ -1,0 +1,75 @@
+/* Overall About Us Section Styling */
+.about-us-section {
+  margin-top: 90px;
+    padding: 20px;
+    background-color: #fce9f5;
+    text-align: center;
+  }
+  
+  .about-us-content {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content h2 {
+    font-size: 2rem;
+    color: rgb(243, 25, 160);
+    margin-bottom: 10px;
+  }
+  
+  .about-us-content p {
+    font-size: 1.2rem;
+    color: #0a090a;
+    margin-bottom: 25px;
+  }
+  
+  .about-us-slider {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-us-slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Slick carousel default styling */
+  .slick-prev, .slick-next {
+    font-size: 1.5rem;
+    color: rgb(7, 4, 6);
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    color: #ff69b4;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: rgb(179, 82, 146);
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff69b4;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .about-us-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-us-content p {
+      font-size: 1rem;
+    }
+  
+    .about-us-slider {
+      max-width: 100%;
+    }
+  
+    .about-us-slider img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
